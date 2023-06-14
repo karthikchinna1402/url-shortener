@@ -1,0 +1,113 @@
+*{
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+body{
+    background-color:whitesmoke;
+    background-image: url(url1.jpg);
+    background-repeat: no-repeat;
+    mix-blend-mode:inherit;
+
+}
+p{
+    text-shadow: 2px 2px 2px rgba(13, 13, 13, 0.4); 
+}
+
+.main{
+    position:sticky;
+    background: transparent;
+    background-color:azure;
+    border-color:deepskyblue;
+    border: 5px solid black;
+    box-shadow: 2px 2px 2px cadetblue;
+    height: 500px;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    border-radius: 20px;
+    
+}
+
+#longurl{
+    position: relative;
+    top: 40%;
+    left: 10%;
+    height: 40px;
+    width: 296px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+    box-shadow: 2px 2px cadetblue;
+}
+#shorten{
+    position: relative;
+    top: 40%;
+    left: 12%;
+    height: 40px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    font-family: monospace;
+    color: white;
+    background-color: purple;
+    box-shadow: 1px 2px black;
+}
+
+#shorten:hover{
+    background-color: skyblue;
+}
+
+#shorturl{
+    position: relative;
+    top: 45%;
+    left: 10%;
+    height: 40px;
+    width: 270px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 47px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+    box-shadow: 2px 2px blue;
+}
+
+#copy{
+    position: relative;
+    top: 46%;
+    left: 0%;
+    height: 35px;
+    width: 35px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color: purple;
+    box-shadow:1px 1px black;
+}
+
+#copy:hover{
+    background-color: skyblue;
+}
+
+.main p{
+    /* background-color: white; */
+    position: relative;
+    top: 30%;
+    left: 13%;
+    height: 60px;
+    width: 400px;
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: bold;
+    color:black;
+}
+
